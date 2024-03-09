@@ -9,6 +9,8 @@ Seoultech Numerical Analysis
 
 ## Setup (using Container)
 ```
+cd container-env
+
 docker build -t py-env:0.1 .
 
 # Startup

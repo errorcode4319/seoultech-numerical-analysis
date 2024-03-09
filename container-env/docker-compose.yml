@@ -7,6 +7,6 @@ services:
     ports:
      - 8888:8888
     volumes:
-     - ./files:/files
+     - ../sources:/sources
      - ./startup.sh:/startup.sh
     command: "sh /startup.sh"

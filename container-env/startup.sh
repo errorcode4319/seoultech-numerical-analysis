@@ -5,6 +5,6 @@ jupyter notebook \
     --allow-root \
     --ip=0.0.0.0 \
     --port=8888 \
-    --NotebookApp.notebook_dir='/files' \
+    --NotebookApp.notebook_dir='/sources' \
     --NotebookApp.token='' \
     --NotebookApp.password=''
