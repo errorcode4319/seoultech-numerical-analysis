@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  jupyter-notebook:
+    image: py-env:0.1
+    container_name: python3-env
+    ports:
+     - 8888:8888
+    volumes:
+     - ./files:/files
+     - ./startup.sh:/startup.sh
+    command: "sh /startup.sh"
