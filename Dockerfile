@@ -4,4 +4,5 @@ RUN apt update && apt -y install python3 python3-pip
 
 RUN pip3 install jupyter 
 
-EXPOSE 8888
+# Numerical Analysis Libraries
+RUN pip3 install numpy matplotlib scipy
