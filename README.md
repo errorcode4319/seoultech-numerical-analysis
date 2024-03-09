@@ -7,7 +7,7 @@ Seoultech Numerical Analysis
 - docker-compose
 
 
-## Setup
+## Setup (using Container)
 ```
 docker build -t py-env:0.1 .
 docker compose up -d
