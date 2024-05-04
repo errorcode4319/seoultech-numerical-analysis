@@ -186,3 +186,6 @@ pyrightconfig.json
 
 .Trash-*
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
+
+
+pdf/
